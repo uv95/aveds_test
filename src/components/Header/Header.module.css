@@ -1,0 +1,51 @@
+.header {
+  padding: 20px 70px;
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255 255 255 / 97%);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 49px;
+}
+
+@media(width <= 1024px) {
+  .header {
+    padding: 20px 50px;
+  }
+}
+
+@media(width <= 800px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+@media(width <= 600px) {
+  .buttons {
+    gap: 20px;
+  }
+}
+
+@media(width <= 480px) {
+  .header {
+    padding: 20px 10px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+}

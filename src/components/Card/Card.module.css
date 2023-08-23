@@ -1,0 +1,29 @@
+.card {
+  padding: 35px 40px;
+  box-shadow: 0 13px 19px 0 #00000012;
+    ;
+}
+
+@media(width <= 800px) {
+  .card {
+    padding: 35px 30px;
+  }
+}
+
+@media(width <= 768px) {
+  .card {
+    padding: 35px 20px;
+  }
+}
+
+@media(width <= 680px) {
+  .card {
+    padding: 35px 15px;
+  }
+}
+
+@media(width <= 600px) {
+  .card {
+    padding: 35px 40px;
+  }
+}

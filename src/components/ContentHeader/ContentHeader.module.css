@@ -1,0 +1,14 @@
+.contentHeader {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+
+
+@media(width <= 480px) {
+  .contentHeader {
+    height: 213px;
+  }
+}

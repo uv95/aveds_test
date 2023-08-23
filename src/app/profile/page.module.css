@@ -1,0 +1,16 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+@media(width <= 480px) {
+  .buttons button {
+    padding: 15px 18px;
+  }
+}
+
+@media(width <= 375px) {
+  .buttons button {
+    padding: 15px 10px;
+  }
+}
